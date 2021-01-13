@@ -1,0 +1,1 @@
+aws s3 sync C:\mysqlbackups\backupfiles\  s3://liveserverdbbackup
