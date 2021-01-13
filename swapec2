@@ -1,0 +1,7 @@
+$ lsblk
+$ sudo mkswap /dev/xvdf
+$ sudo swapon /dev/xvdf
+$ sudo vi /etc/fstab
+$ sudo swapon --show
+$ df -h
+$ sudo init 6
