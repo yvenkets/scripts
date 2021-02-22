@@ -1,0 +1,44 @@
+1  sudo apt-get install vim
+    2  sudo apt install apache2 mysql-client mysql-server php libapache2-mod-php
+    3  sudo apt get update
+    4  sudo apt-get update
+    5  sudo apt install apache2 mysql-client mysql-server php libapache2-mod-php
+    6  sudo apt install graphviz aspell ghostscript clamav php7.4-pspell php7.4-curl php7.4-gd php7.4-intl php7.4-mysql php7.4-xml php7.4-xmlrpc php7.4-ldap php7.4-zip php7.4-soap php7.4-mbstring
+    7  sudo service apache2 restart
+    8  sudo apt install git
+    9  cd /opt
+   10  sudo git clone git://git.moodle.org/moodle.git
+   11  cd moodle
+   12  sudo git branch -a
+   13  sudo git branch --track MOODLE_39_STABLE origin/MOODLE_39_STABLE
+   14  sudo git checkout MOODLE_39_STABLE
+   15  sudo cp -R /opt/moodle /var/www/html/
+   16  sudo mkdir /var/moodledata
+   17  sudo chown -R www-data /var/moodledata
+   18  sudo chmod -R 777 /var/moodledata
+   19  sudo chmod -R 0755 /var/www/html/moodle
+   20  sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
+   21  sudo service mysql restart
+   22  sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
+   23  sudo service mysql restart
+   24  sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
+   25  sudo service mysql restart
+   26  sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
+   27  sudo service mysql restart
+   28  sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
+   29  sudo service mysql restart
+   30  sudo mysql -u root -p
+   31  sudo service mysql restart
+   32  sudo mysql -u root -p
+   33  sudo chmod -R 777 /var/www/html/moodle
+   34  cd /
+   35  pwd
+   36  cd var/www/
+   37  ht
+   38  cd html/
+   39  ls
+   40  cd moodle/
+   41  ls
+   42  cd /var/moodledata/
+   43  ls
+   44  history
